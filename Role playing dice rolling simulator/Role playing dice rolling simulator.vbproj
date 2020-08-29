@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FE01FEE-AEBD-4AD4-81A1-B9E84F68C708}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Role_playing_dice_rolling_simulator.My.MyApplication</StartupObject>
+    <RootNamespace>Role_playing_dice_rolling_simulator</RootNamespace>
+    <AssemblyName>Role playing dice rolling simulator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Role playing dice rolling simulator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Role playing dice rolling simulator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dice.vb" />
+    <Compile Include="DiceDataBase1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiceDataBase1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataBase.Designer.vb">
+      <DependentUpon>frmDataBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiceTable.Designer.vb">
+      <DependentUpon>frmDiceTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiceTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDataBase.resx">
+      <DependentUpon>frmDataBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiceTable.resx">
+      <DependentUpon>frmDiceTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiceDataBase1DataSet.xsc">
+      <DependentUpon>DiceDataBase1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DiceDataBase1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiceDataBase1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiceDataBase1DataSet.xss">
+      <DependentUpon>DiceDataBase1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D20_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD20_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD20_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD12_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD8_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfD8_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrickFloor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aged Stone Tiles 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cD12_131.gif" />
+    <None Include="Resources\cD12_141.gif" />
+    <None Include="Resources\cD12_151.gif" />
+    <None Include="Resources\cD12_161.gif" />
+    <None Include="Resources\cD12_171.gif" />
+    <None Include="Resources\cD12_181.gif" />
+    <None Include="Resources\cD12_191.gif" />
+    <None Include="Resources\cD8_121.gif" />
+    <None Include="Resources\cD8_131.gif" />
+    <None Include="Resources\cD8_141.gif" />
+    <None Include="Resources\cD8_151.gif" />
+    <None Include="Resources\cD8_161.gif" />
+    <None Include="Resources\cD8_171.gif" />
+    <None Include="Resources\cD8_181.gif" />
+    <None Include="Resources\cD8_191.gif" />
+    <None Include="Resources\cD8_201.gif" />
+    <None Include="Resources\cfD12_131.gif" />
+    <None Include="Resources\cfD12_141.gif" />
+    <None Include="Resources\cfD12_151.gif" />
+    <None Include="Resources\cfD12_161.gif" />
+    <None Include="Resources\cfD12_171.gif" />
+    <None Include="Resources\D12_131.gif" />
+    <None Include="Resources\D12_141.gif" />
+    <None Include="Resources\D12_151.gif" />
+    <None Include="Resources\D12_161.gif" />
+    <None Include="Resources\D12_171.gif" />
+    <None Include="Resources\D12_181.gif" />
+    <None Include="Resources\D12_191.gif" />
+    <None Include="Resources\D12_201.gif" />
+    <None Include="Resources\cD8_192.gif" />
+    <None Include="Resources\cD8_202.gif" />
+    <None Include="Resources\cD10_5.gif" />
+    <None Include="Resources\cD10_6.gif" />
+    <None Include="Resources\cD10_7.gif" />
+    <None Include="Resources\cD10_8.gif" />
+    <None Include="Resources\cD10_9.gif" />
+    <None Include="Resources\cD10_10.gif" />
+    <None Include="Resources\cfD10_1.gif" />
+    <None Include="Resources\cfD10_2.gif" />
+    <None Include="Resources\cfD10_3.gif" />
+    <None Include="Resources\cfD10_4.gif" />
+    <None Include="Resources\cfD10_5.gif" />
+    <None Include="Resources\cfD10_6.gif" />
+    <None Include="Resources\cfD10_7.gif" />
+    <None Include="Resources\cfD10_8.gif" />
+    <None Include="Resources\cfD10_9.gif" />
+    <None Include="Resources\cfD10_10.gif" />
+    <None Include="Resources\D10_1.gif" />
+    <None Include="Resources\D10_2.gif" />
+    <None Include="Resources\D10_3.gif" />
+    <None Include="Resources\D10_4.gif" />
+    <None Include="Resources\D10_5.gif" />
+    <None Include="Resources\D10_6.gif" />
+    <None Include="Resources\D10_7.gif" />
+    <None Include="Resources\D10_8.gif" />
+    <None Include="Resources\D10_9.gif" />
+    <None Include="Resources\D10_10.gif" />
+    <None Include="Resources\cD10_1.gif" />
+    <None Include="Resources\cD10_2.gif" />
+    <None Include="Resources\cD10_3.gif" />
+    <None Include="Resources\cD10_4.gif" />
+    <None Include="Resources\cD8_1.gif" />
+    <None Include="Resources\D8_5.gif" />
+    <None Include="Resources\D8_6.gif" />
+    <None Include="Resources\D8_7.gif" />
+    <None Include="Resources\D8_8.gif" />
+    <None Include="Resources\cD8_2.gif" />
+    <None Include="Resources\cD8_3.gif" />
+    <None Include="Resources\cD8_4.gif" />
+    <None Include="Resources\cD8_5.gif" />
+    <None Include="Resources\cD8_6.gif" />
+    <None Include="Resources\cD8_7.gif" />
+    <None Include="Resources\cD8_8.gif" />
+    <None Include="Resources\cfD8_0.gif" />
+    <None Include="Resources\cfD8_1.gif" />
+    <None Include="Resources\cfD8_2.gif" />
+    <None Include="Resources\cfD8_3.gif" />
+    <None Include="Resources\cfD8_4.gif" />
+    <None Include="Resources\cfD8_5.gif" />
+    <None Include="Resources\cfD8_6.gif" />
+    <None Include="Resources\cfD8_7.gif" />
+    <None Include="Resources\cfD8_8.gif" />
+    <None Include="Resources\D8_0.gif" />
+    <None Include="Resources\D8_1.gif" />
+    <None Include="Resources\D8_2.gif" />
+    <None Include="Resources\D8_3.gif" />
+    <None Include="Resources\D8_4.gif" />
+    <None Include="Resources\cfD6_3.gif" />
+    <None Include="Resources\cfD6_4.gif" />
+    <None Include="Resources\cfD6_5.gif" />
+    <None Include="Resources\cfD6_6.gif" />
+    <None Include="Resources\D6_1.gif" />
+    <None Include="Resources\D6_2.gif" />
+    <None Include="Resources\D6_3.gif" />
+    <None Include="Resources\D6_4.gif" />
+    <None Include="Resources\D6_5.gif" />
+    <None Include="Resources\D6_6.gif" />
+    <None Include="Resources\cD6_1.gif" />
+    <None Include="Resources\cD6_2.gif" />
+    <None Include="Resources\cD6_3.gif" />
+    <None Include="Resources\cD6_4.gif" />
+    <None Include="Resources\cD6_5.gif" />
+    <None Include="Resources\cD6_6.gif" />
+    <None Include="Resources\cfD6_1.gif" />
+    <None Include="Resources\cfD6_2.gif" />
+    <None Include="Resources\cD6_11.gif" />
+    <None Include="Resources\D6_11.gif" />
+    <None Include="Resources\D6_21.gif" />
+    <None Include="Resources\D6_31.gif" />
+    <None Include="Resources\cfD3_11.gif" />
+    <None Include="Resources\cD6_111.gif" />
+    <None Include="Resources\D6_111.gif" />
+    <None Include="Resources\D6_211.gif" />
+    <None Include="Resources\D6_311.gif" />
+    <None Include="Resources\cD6_12.gif" />
+    <None Include="Resources\cD6_21.gif" />
+    <None Include="Resources\cD6_31.gif" />
+    <None Include="Resources\cfD6_11.gif" />
+    <None Include="Resources\cfD6_21.gif" />
+    <None Include="Resources\cfD6_31.gif" />
+    <None Include="Resources\D6_12.gif" />
+    <None Include="Resources\D6_22.gif" />
+    <None Include="Resources\D6_32.gif" />
+    <None Include="Resources\cD3_4.gif" />
+    <None Include="Resources\cfD3_4.gif" />
+    <None Include="Resources\D3_4.gif" />
+    <None Include="Resources\D4_0.gif" />
+    <None Include="Resources\D4_1.gif" />
+    <None Include="Resources\D4_2.gif" />
+    <None Include="Resources\D4_3.gif" />
+    <None Include="Resources\D4_4.gif" />
+    <None Include="Resources\cD4_0.gif" />
+    <None Include="Resources\cD4_1.gif" />
+    <None Include="Resources\cD4_2.gif" />
+    <None Include="Resources\cD4_3.gif" />
+    <None Include="Resources\cD4_4.gif" />
+    <None Include="Resources\cfD4_0.gif" />
+    <None Include="Resources\cfD4_1.gif" />
+    <None Include="Resources\cfD4_2.gif" />
+    <None Include="Resources\cfD4_3.gif" />
+    <None Include="Resources\cfD4_4.gif" />
+    <None Include="Resources\cfD3_3.gif" />
+    <None Include="Resources\D3_1.gif" />
+    <None Include="Resources\D3_2.gif" />
+    <None Include="Resources\D3_3.gif" />
+    <None Include="Resources\cD3_1.gif" />
+    <None Include="Resources\cD3_2.gif" />
+    <None Include="Resources\cD3_3.gif" />
+    <None Include="Resources\cfD3_1.gif" />
+    <None Include="Resources\cfD3_2.gif" />
+    <None Include="Resources\D2_1.gif" />
+    <None Include="Resources\D2_2.gif" />
+    <None Include="Resources\cD2_1.gif" />
+    <None Include="Resources\cD2_2.gif" />
+    <None Include="Resources\cfD2_1.gif" />
+    <None Include="Resources\cfD2_2.gif" />
+    <Content Include="DiceDataBase1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Mountain-Castle-fantasy-38732839-1600-900.jpg" />
+    <None Include="Resources\p731401470-4.jpg" />
+    <None Include="Resources\Mji0eJV.jpg" />
+    <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

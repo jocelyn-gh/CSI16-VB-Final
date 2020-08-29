@@ -1,0 +1,63 @@
+﻿        If (False) Then
+            Dim StringFormat As New StringFormat()
+            Dim imgMain As Bitmap
+            Dim gr As Graphics
+            StringFormat.Alignment = StringAlignment.Center
+            StringFormat.LineAlignment = StringAlignment.Center
+
+
+            For i As Integer = 1 To 20
+                imgMain = ImgListD20.Images.Item(0)
+                gr = Graphics.FromImage(imgMain)
+                gr.DrawString(i, New Font("Cup and Talon", 14.0), New SolidBrush(Color.Gold), 40, 30, StringFormat)
+                gr.Dispose()
+                imgMain.Save("F:\SCHOOL\csi16\Project\Images\Images\D8\Normal\D8_" & i & ".gif")
+                'ImageList1.Images.Add(imgMain)
+            Next
+
+
+            For i As Integer = 1 To 20
+                imgMain = ImgListCritD20.Images.Item(0)
+                gr = Graphics.FromImage(imgMain)
+                gr.DrawString(i, New Font("Cup and Talon", 14.0), New SolidBrush(Color.Gold), 40, 30, StringFormat)
+                gr.Dispose()
+                imgMain.Save("F:\SCHOOL\csi16\Project\Images\Images\D8\Normal\cD8_" & i & ".gif")
+                'ImgListCritD20.Images.Add(imgMain)
+            Next
+
+            For i As Integer = 1 To 20
+                imgMain = ImgListCritFailD20.Images.Item(0)
+                gr = Graphics.FromImage(imgMain)
+                gr.DrawString(i, New Font("Cup and Talon", 14.0), New SolidBrush(Color.Gold), 40, 30, StringFormat)
+                gr.Dispose()
+                imgMain.Save("F:\SCHOOL\csi16\Project\Images\Images\D8\Normal\cfD8_" & i & ".gif")
+                'ImgListCritFailD20.Images.Add(imgMain)
+            Next
+
+            listviewMain.LargeImageList = ImageList1
+
+            For i As Integer = 0 To 20
+
+                listviewMain.Items.Add("", i)
+            Next
+        End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles DiceDev.Click
+        listviewMain.Clear()
+        ImageList1.Images.Clear()
+        ListBox1.Items.Clear()
+        For i As Integer = 0 To diceArrayTemp.Count - 1
+
+            'System.Threading.Thread.Sleep(13)
+
+            ImageList1.Images.Add(My.Resources.ResourceManager.GetObject(diceArrayTemp(i).GetImageName))
+
+        Next
+
+        For i As Integer = 0 To diceArrayTemp.Count - 1
+
+
+            listviewMain.Items.Add("{" & i.ToString & "} " & diceArrayTemp(i).GetRolled.ToString & " + (" & diceArrayTemp(i).GetMod.ToString & ") = " & diceArrayTemp(i).GetTotalRoll.ToString, i)
+            ListBox1.Items.Add("{" & i.ToString & "} " & diceArrayTemp(i).GetRolled.ToString & " + (" & diceArrayTemp(i).GetMod.ToString & ") = " & diceArrayTemp(i).GetTotalRoll.ToString)
+        Next
