@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Role playing dice rolling simulator
+</name>
+</assembly>
+<members>
+<member name="T:Role_playing_dice_rolling_simulator.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.Aged_Stone_Tiles_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.BrickFloor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD10_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD12_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD20_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD3_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD3_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD4_0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD4_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD4_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD4_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD4_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD6_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD6_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD6_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD6_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD6_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD6_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cD8_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD10_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD12_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD20_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD3_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD3_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD4_0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD4_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD4_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD4_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD4_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD6_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD6_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD6_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD6_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD6_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD6_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.cfD8_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D10_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D12_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D20_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D3_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D3_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D4_0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D4_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D4_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D4_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D4_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D6_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D6_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D6_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D6_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D6_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D6_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.D8_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.Mji0eJV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.Mountain_Castle_fantasy_38732839_1600_900">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Role_playing_dice_rolling_simulator.My.Resources.Resources.p731401470_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSet.DiceTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSet.DiceTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSet.DiceTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.DiceTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Role_playing_dice_rolling_simulator.DiceDataBase1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Role_playing_dice_rolling_simulator.DiceDataBase1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Role_playing_dice_rolling_simulator.DiceDataBase1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.UpdateAll(Role_playing_dice_rolling_simulator.DiceDataBase1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Role_playing_dice_rolling_simulator.DiceDataBase1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
